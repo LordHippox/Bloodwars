@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="task and daily" script="taskdaily.lua" walkinterval="0">
+    <health now="100" max="100"/>
+    <look type="657"/>
+    <parameters>
+        <parameter key="message_greet" value="Hello |PLAYERNAME|. Do you want to do a {task} or a {daily} task? You want to {deliver} your task and receive prizes for it" />
+    </parameters>
+</npc>
