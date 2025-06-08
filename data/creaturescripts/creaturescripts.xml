@@ -7,6 +7,10 @@
 	<event type="login" name="RegenerateStamina" script="others/regeneratestamina.lua" />
 	<event type="death" name="PlayerDeath" script="others/playerdeath.lua" />
 	<event type="death" name="DropLoot" script="others/droploot.lua" />
+	<event type="login" name="ResetDefaultsLogin" script="others/reset_defaults.lua"/>
+	<event type="logout" name="ResetDefaultsLogout" script="others/reset_defaults.lua"/>
+	<event type="death" name="ResetDefaultsDeath" script="others/reset_defaults.lua"/>
+
 	
 		<!-- Modal Helper -->
 	<event type="modalwindow" name="ModalWindowHelper" script="custom/modalwindowhelper.lua" />
@@ -20,7 +24,7 @@
 	<event type="login" name="AntiBot" script="custom/antibot.lua" />
 
 	<!-- Custom -->
-	<event type="login" name="FreeBless" script="custom/freeBless.lua" />
+	<!--<event type="login" name="FreeBless" script="custom/freeBless.lua" /> -->
 	<event type="login" name="OnlineBonus" script="custom/onlineBonus.lua" />
 	<event type="logout" name="OnlineBonusLogout" script="custom/onlineBonus.lua" />
 	<event type="advance" name="RewardLevel" script="custom/rewardLevel.lua" />
